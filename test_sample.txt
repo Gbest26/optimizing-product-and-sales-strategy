@@ -1,0 +1,50 @@
+Single test sample:-
+
+{
+  "input_data": {
+    "columns": [
+      "Countries",
+      "Seasons",
+      "Healthy Foods",
+      "Unit of Measurement",
+      "Measurement Type"
+    ],
+    "index": [0],
+    "data": [
+      [
+        "Switzerland",
+        "Spring",
+        "Carrots",
+        500,
+        "Grams"
+      ]
+    ]
+  }
+}
+
+
+multiple test sample:-
+
+{
+  "input_data": {
+    "columns": [
+      "Countries",
+      "Seasons",
+      "Healthy Foods",
+      "Unit of Measurement",
+      "Measurement Type"
+    ],
+    "index": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+    "data": [
+      ["Switzerland", "Spring", "Carrots", 500, "Grams"],
+      ["Belgium", "Spring", "Papaya", 1, "Piece"],
+      ["Botswana", "Dry Season", "Bell Peppers", 1, "Piece"],
+      ["United Kingdom", "Fall", "Garlic", 50, "Grams Per Bulk"],
+      ["Tanzania", "Dry Season", "Broccoli", 250, "Grams"],
+      ["Moldova", "Winter", "Goji Berries", 100, "Grams"],
+      ["Russia", "Spring", "Dark Chocolate", 50, "Grams"],
+      ["United States", "Summer", "Matcha", 30, "Grams"],
+      ["Germany", "Fall", "Raspberries", 125, "Grams"]
+    ]
+  }
+}
