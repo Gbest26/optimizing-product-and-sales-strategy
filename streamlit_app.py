@@ -33,8 +33,8 @@ input_data = {
 }
 
 # Display the input data
-st.write("Input Data for Prediction:")
-st.json(input_data)
+# st.write("Input Data for Prediction:")
+# st.json(input_data)
 
 # Send data to your Azure ML model for prediction
 if st.button('Predict Price'):
