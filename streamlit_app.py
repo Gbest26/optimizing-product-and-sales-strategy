@@ -47,6 +47,6 @@ if st.button('Predict Price'):
     try:
         response = requests.post(url, headers=headers, json=input_data)
         result = response.json()
-        st.success(f"Predicted Price (USD): {result}")
+        st.success(f"Predicted Price (USD): {result[0]:.2f}")
     except Exception as e:
         st.error(f"Error: {e}")
