@@ -1,4 +1,6 @@
-# Project Title: Healthy Foods Price Prediction Across Seasons
+# Project Title: Optimizing Product  and Sales Strategy for Healthy Foods
+## Sub Head: Healthy Foods Price Prediction Across Seasons
+
 ## Project Overview:
 
 This project aims to assist customers and new business owners in the healthy food sector by providing insights into the average price of various healthy foods across different seasons. This model helps users anticipate and plan for price fluctuations based on the seasonality of products, offering them a sense of how much these items typically cost in different countries and times of the year.
