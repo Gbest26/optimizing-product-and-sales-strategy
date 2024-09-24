@@ -5,16 +5,7 @@ This project aims to assist customers and new business owners in the healthy foo
 
 ## Data:
 
-The dataset used for this project was gathered from Kaggle and various online resources. It includes information about the prices of healthy foods, categorized by country, season, food type, unit of measurement, and measurement type. Below is a sample of the data:
-Countries	Seasons	Healthy Foods	Unit of Measurement	Measurement Type	Price (USD)
-Switzerland	Spring	Carrots	500	Grams	2.13
-Belgium	Spring	Papaya	1	Piece	2.56
-Botswana	Dry Season	Bell Peppers	1	Piece	1.14
-United Kingdom	Fall	Garlic	50	Grams Per Bulk	1.77
-Tanzania	Dry Season	Broccoli	250	Grams	3.44
-Moldova	Winter	Goji Berries	100	Grams	16.31
-Russia	Spring	Dark Chocolate	50	Grams	5.61
-United States	Summer	Matcha	30	Grams	10.2
+The dataset used for this project was gathered from Kaggle and various online resources. It includes information about the prices of healthy foods, categorized by country, season, food type, unit of measurement, and measurement type. 
 
 The Price (USD) is the target vector used for prediction in this project.
 
