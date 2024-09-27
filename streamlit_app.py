@@ -3,7 +3,7 @@ import pandas as pd
 import json
 import requests
 
-# Title for the web app
+# Title of my web app
 st.title('Healthy Foods Average Price Prediction')
 
 # Collect input from the user
@@ -36,14 +36,14 @@ input_data = {
 # st.write("Input Data for Prediction:")
 # st.json(input_data)
 
-# Send data to your Azure ML model for prediction
+# Sending data to my Azure ML model for prediction
 if st.button('Predict Price'):
     url = 'https://optimizing-production-and-jfimz.eastus2.inference.ml.azure.com/score'
-    api_key = 'eOgSsBbK4luONHPTVCOgrAZs6vLrsyXE'  # Replace with your API key
+    api_key = 'eOgSsBbK4luONHPTVCOgrAZs6vLrsyXE'
 
     headers = {'Content-Type': 'application/json', 'Authorization': f'Bearer {api_key}'}
 
-    # Call the Azure ML service and get the prediction
+    # Calling the Azure ML service through my url and api_key and get the prediction
     try:
         response = requests.post(url, headers=headers, json=input_data)
         result = response.json()
